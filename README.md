@@ -4,8 +4,7 @@ A Streamlit-based web application that extracts article content from any given U
 
 ## 🌐 Live Demo
 
-➡️ [Try it on Streamlit Cloud](https://api-summary-website.streamlit.app) *(replace with your actual URL once deployed)*
-
+➡️ https://api-summarywebsitegit-djpdytfotxfvluabf3zg4o.streamlit.app/
 ---
 
 ## ✨ Features
