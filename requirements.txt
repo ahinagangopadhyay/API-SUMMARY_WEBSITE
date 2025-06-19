@@ -1,7 +1,7 @@
 streamlit
 openai==0.28.1
-newspaper3k
 nltk
+newspaper3k
 requests
-lxml
-lxml-html-clean
+lxml==4.9.3
+lxml-html-clean==0.1.1
