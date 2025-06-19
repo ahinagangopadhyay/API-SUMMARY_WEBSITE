@@ -1,7 +1,4 @@
 streamlit
-openai==0.28.1
-nltk
-newspaper3k
+openai
+beautifulsoup4
 requests
-lxml==4.9.3
-lxml-html-clean==0.1.1
