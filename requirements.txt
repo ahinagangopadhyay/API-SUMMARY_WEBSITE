@@ -1,8 +1,7 @@
 streamlit
-openai
+openai==0.28.1
 newspaper3k
 nltk
+requests
 lxml
 lxml-html-clean
-requests
-
