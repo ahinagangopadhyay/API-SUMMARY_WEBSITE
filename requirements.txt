@@ -1,7 +1,13 @@
 streamlit
+<<<<<<< HEAD
 openai==0.28.1
 nltk
 newspaper3k
 requests
 lxml==4.9.3
 lxml-html-clean==0.1.1
+=======
+openai
+beautifulsoup4
+requests
+>>>>>>> 94fc974 (Updated app.py with new summarization logic)
