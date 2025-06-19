@@ -5,7 +5,8 @@ import os
 
 
 st.set_page_config(page_title="Website Summarizer", layout="centered")
-openai.api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 st.title("🌐 Website Summarizer")
 st.markdown("Paste a news article or blog URL, and get a summary.")
