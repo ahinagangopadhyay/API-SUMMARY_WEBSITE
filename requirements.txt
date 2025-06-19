@@ -3,5 +3,6 @@ openai
 newspaper3k
 nltk
 lxml
-lxml_html_clean
+lxml-html-clean
 requests
+
