@@ -1,3 +1,7 @@
 streamlit
-openai
-newspaper3k
+openai==0.28
+beautifulsoup4
+requests
+textblob
+spacy
+fpdf
