@@ -1,4 +1,7 @@
 streamlit
-openai
+openai==0.28
 beautifulsoup4
 requests
+textblob
+spacy
+fpdf
