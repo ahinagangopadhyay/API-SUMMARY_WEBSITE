@@ -52,6 +52,21 @@ def create_pdf(text):
     return pdf_buffer
 
 
+def extract_article_text(url):
+    try:
+        response = requests.get(url, timeout=10)
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Remove scripts and styles
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+
+        paragraphs = soup.find_all("p")
+        content = "\n".join([p.get_text(strip=True) for p in paragraphs])
+        return content.strip()
+    except Exception as e:
+        return None
+
 if st.button("Summarize"):
     if not url:
         st.warning("Please enter a URL.")

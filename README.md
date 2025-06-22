@@ -2,10 +2,6 @@
 
 A Streamlit-based web application that extracts article content from any given URL and generates a concise summary using the OpenAI API.
 
-## 🌐 Live Demo
-
-➡️ https://api-summarywebsitegit-djpdytfotxfvluabf3zg4o.streamlit.app/
----
 
 ## ✨ Features
 
