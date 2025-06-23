@@ -5,3 +5,7 @@ requests
 textblob
 spacy
 fpdf
+PyPDF2
+langchain
+faiss-cpu
+tiktoken
